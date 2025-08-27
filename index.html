@@ -1,0 +1,216 @@
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sayyid Musa al‑Sadr | Tribute & Legacy</title>
+  <meta name="description" content="A modern, bilingual (EN/AR) tribute website for Imam Musa al‑Sadr: biography, timeline, legacy, quotes and resources.">
+  <meta name="theme-color" content="#0f5132">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Home">
+        <img src="assets/logo.svg" alt="" class="brand-mark" width="36" height="36" />
+        <div class="brand-text">
+          <strong data-i18n="brand.name">Musa al‑Sadr</strong>
+          <span data-i18n="brand.tag">Tribute & Legacy</span>
+        </div>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" id="navToggle">
+          <span class="sr-only">Menu</span>
+          <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v2H3zM3 11h18v2H3zM3 16h18v2H3z"/></svg>
+        </button>
+        <ul id="nav-menu" class="nav-menu">
+          <li><a href="#about" data-i18n="nav.about">About</a></li>
+          <li><a href="#timeline" data-i18n="nav.timeline">Timeline</a></li>
+          <li><a href="#legacy" data-i18n="nav.legacy">Legacy</a></li>
+          <li><a href="#quotes" data-i18n="nav.quotes">Quotes</a></li>
+          <li><a href="#gallery" data-i18n="nav.gallery">Gallery</a></li>
+          <li><a href="#resources" data-i18n="nav.resources">Resources</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button id="langToggle" class="btn ghost" aria-label="Switch language">AR</button>
+        <button id="themeToggle" class="btn ghost" aria-label="Toggle dark mode">
+          <span class="theme-icon">☾</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1 class="display" data-i18n="hero.title">Al-Imam Al-Sayyid Musa Al‑Sadr</h1>
+          <p class="lead" data-i18n="hero.subtitle">Scholar, reformer, and voice for dignity and social justice in Lebanon.</p>
+          <div class="hero-ctas">
+            <a href="#about" class="btn primary" data-i18n="hero.cta1">Discover his life</a>
+            <a href="#timeline" class="btn outline" data-i18n="hero.cta2">View the timeline</a>
+          </div>
+          <ul class="quick-facts">
+            <li><span data-i18n="facts.born.label">Born:</span> <span data-i18n="facts.born.value">1928 – Qom, Iran</span></li>
+            <li><span data-i18n="facts.role1.label">Role:</span> <span data-i18n="facts.role1.value">Head of the Supreme Islamic Shiite Council in Lebanon (1969)</span></li>
+            <li><span data-i18n="facts.role2.label">Founded:</span> <span data-i18n="facts.role2.value">The Amal Movement (1974)</span></li>
+            <li><span data-i18n="facts.missing.label">Disappeared:</span> <span data-i18n="facts.missing.value">August 31, 1978 – Libya</span></li>
+          </ul>
+        </div>
+        <div class="hero-visual">
+          <img class="portrait" src="assets/portrait.svg" alt="Stylized portrait silhouette of Imam Musa al‑Sadr">
+        </div>
+      </div>
+      <div class="hero-bg">
+        <img src="assets/pattern.svg" alt="" aria-hidden="true">
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container grid-2">
+        <div>
+          <h2 data-i18n="about.title">About</h2>
+          <p data-i18n="about.p1">Sayyid Musa al‑Sadr (1928–unknown) was a Lebanese Shia cleric and public intellectual. He moved to Lebanon in 1959, quickly becoming a leading voice for national unity, education, and social development, especially in the historically marginalized south.</p>
+          <p data-i18n="about.p2">He spearheaded community institutions, advocated dialogue across religious traditions, and worked to strengthen the state’s role in providing dignity and opportunity for all citizens.</p>
+          <p data-i18n="about.p3">His unexplained disappearance in Libya on August 31, 1978, with Sheikh Muhammad Ya‘qub and journalist ‘Abbas Badreddine, remains a central unresolved case in Lebanon’s modern history.</p>
+          <div class="cards">
+            <article class="card">
+              <h3 data-i18n="about.card1.t">Scholar & Reformer</h3>
+              <p data-i18n="about.card1.d">Combined religious scholarship with civic action: education, healthcare, and social solidarity.</p>
+            </article>
+            <article class="card">
+              <h3 data-i18n="about.card2.t">Bridge‑Builder</h3>
+              <p data-i18n="about.card2.d">Promoted dialogue among Lebanon’s communities and institutions to reinforce national unity.</p>
+            </article>
+            <article class="card">
+              <h3 data-i18n="about.card3.t">Enduring Question</h3>
+              <p data-i18n="about.card3.d">His fate remains unknown; the quest for truth continues as part of the public conscience.</p>
+            </article>
+          </div>
+        </div>
+        <aside class="aside">
+          <h3 data-i18n="aside.title">At a glance</h3>
+          <ul class="tick-list">
+            <li data-i18n="aside.i1">Born 1928 — Qom, Iran (Lebanese lineage)</li>
+            <li data-i18n="aside.i2">Moved to Tyre, Lebanon in 1959</li>
+            <li data-i18n="aside.i3">First head of the Supreme Islamic Shiite Council (1969)</li>
+            <li data-i18n="aside.i4">Founded the Amal Movement (1974)</li>
+            <li data-i18n="aside.i5">Disappeared in Libya on Aug 31, 1978</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="timeline" class="section alt">
+      <div class="container">
+        <h2 data-i18n="timeline.title">Timeline</h2>
+        <ol class="timeline">
+          <li>
+            <div class="time">1928</div>
+            <div class="entry" data-i18n="timeline.e1">Born in Qom to a scholarly family rooted in Lebanon’s Jabal ‘Amil.</div>
+          </li>
+          <li>
+            <div class="time">1959</div>
+            <div class="entry" data-i18n="timeline.e2">Settles in Tyre, Lebanon; launches wide‑ranging social and educational initiatives.</div>
+          </li>
+          <li>
+            <div class="time">1969</div>
+            <div class="entry" data-i18n="timeline.e3">Elected head of the Supreme Islamic Shiite Council in Lebanon.</div>
+          </li>
+          <li>
+            <div class="time">1974</div>
+            <div class="entry" data-i18n="timeline.e4">Helps found the Amal Movement amid growing security and social challenges.</div>
+          </li>
+          <li>
+            <div class="time">Aug 1978</div>
+            <div class="entry" data-i18n="timeline.e5">Travels to Libya; disappears with Sheikh Muhammad Ya‘qub and journalist ‘Abbas Badreddine.</div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="legacy" class="section">
+      <div class="container grid-2">
+        <div>
+          <h2 data-i18n="legacy.title">Legacy</h2>
+          <ul class="check-list">
+            <li data-i18n="legacy.i1">A model of faith engaged with public life: dignity, education, and social justice.</li>
+            <li data-i18n="legacy.i2">Institutions and movements that continue to shape civic participation.</li>
+            <li data-i18n="legacy.i3">An enduring call for dialogue and responsible citizenship.</li>
+          </ul>
+        </div>
+        <div class="quote-card">
+          <blockquote>
+            <p data-i18n="legacy.quote">“Man is the brother of man; he is his mirror and support.”</p>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="quotes" class="section alt">
+      <div class="container">
+        <h2 data-i18n="quotes.title">Selected Quotes</h2>
+        <div class="quotes-grid">
+          <figure class="q"><blockquote data-i18n="q.1">Religion without justice is a shell; justice without compassion is a wound.</blockquote></figure>
+          <figure class="q"><blockquote data-i18n="q.2">Our unity is our strength; it safeguards the weak and restrains the strong.</blockquote></figure>
+          <figure class="q"><blockquote data-i18n="q.3">Knowledge lights the path, but service brings us to the destination.</blockquote></figure>
+          <figure class="q"><blockquote data-i18n="q.4">The state’s duty is to protect dignity; the citizen’s duty is to build it.</blockquote></figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section">
+      <div class="container">
+        <h2 data-i18n="gallery.title">Gallery</h2>
+        <div class="gallery">
+          <figure>
+            <img src="syd1.jpeg" alt="Abstract emblematic illustration">
+          </figure>
+          <figure>
+            <img src="syd2.jpeg" alt="Geometric pattern inspired by Lebanese motifs">
+          </figure>
+          <figure>
+            <img src="syd3.jpeg" alt="Minimal silhouette composition">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="resources" class="section alt">
+      <div class="container grid-2">
+        <div>
+          <h2 data-i18n="resources.title">Resources</h2>
+          <p data-i18n="resources.p">Explore historical documents, biographies, and archival material</p>
+          <ul class="link-list">
+            <li><a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Musa_al-Sadr" data-i18n="resources.l1">Wikipedia: Musa al‑Sadr</a></li>
+            <li><a target="_blank" rel="noopener noreferrer" href="https://ar.wikipedia.org/wiki/%D9%85%D9%88%D8%B3%D9%89_%D8%A7%D9%84%D8%B5%D8%AF%D8%B1" data-i18n="resources.l2">Arabic Wikipedia: موسى الصدر</a></li>
+          </ul>
+        </div>
+        <aside class="contact-card">
+          <h3 data-i18n="contact.title">Contact</h3>
+          <p data-i18n="contact.p">For feedback about this website, send us an email.</p>
+          <a class="btn primary" href="mailto:hello@example.com?subject=Musa%20al-Sadr%20Website%20Feedback" data-i18n="contact.btn">Email</a>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p data-i18n="footer.copy">© <span id="year"></span> Tribute site for educational purposes.<br>Developed by Jawad Dabbous</p>
+      <a href="#top" class="to-top" aria-label="Back to top">↑</a>
+    </div>
+  </footer>
+
+</body>
+</html>
