@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
       "nav.contact": "تواصل",
       "nav.gallery":"المعرض",
       "nav.timeline":"الخط الزمني",
-      "nav.recources":"المصادر",
+      "nav.resources":"المصادر",
       "nav.quotes":"الاقوال",
       "hero.title": "الإمام السيد موسى الصدر",
       "hero.subtitle": "قائد رؤيوي، مصلح ومفكر.",
