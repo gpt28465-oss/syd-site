@@ -16,23 +16,47 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Translation data
   const i18n = {
-    en: {
-      "nav.about": "About",
-      "nav.life": "Life",
-      "nav.legacy": "Legacy",
-      "nav.contact": "Contact",
-      "hero.title": "Imam Sayyid Musa al-Sadr",
-      "hero.subtitle": "A visionary leader, reformer, and thinker.",
-      "about.title": "About",
-      "about.text": "Sayyid Musa al-Sadr was a prominent Lebanese-Iranian Shi'a cleric, reformer, and political leader who played a key role in Lebanon's modern history.",
-      "life.title": "Life",
-      "life.text": "He was born in Qom, Iran in 1928 and moved to Lebanon in 1959, where he became an influential figure advocating for social justice and unity.",
-      "legacy.title": "Legacy",
-      "legacy.text": "His mysterious disappearance in 1978 in Libya remains one of the greatest unsolved cases in the Middle East, yet his legacy continues to inspire.",
-      "contact.title": "Contact",
-      "contact.text": "For inquiries, collaborations, or more information about Imam Musa al-Sadr, please reach out via email.",
-      "footer.copy": "© 2025 Tribute site for educational purposes."
-    },
+     en: {
+  "nav.about": "About",
+  "nav.life": "Life",
+  "nav.legacy": "Legacy",
+  "nav.contact": "Contact",
+  "nav.gallery": "Gallery",       // added
+  "nav.timeline": "Timeline",     // added
+  "nav.resources": "Resources",   // added
+  "nav.quotes": "Quotes",         // added
+  "about.p1": "Sayyid Musa al-Sadr (1928 – unknown) was a Lebanese-Iranian Shi’a cleric and public intellectual...",
+  "about.p2": "He led community institutions, promoted interfaith dialogue, and strengthened the role of the state...",
+  "about.p3": "His unexplained disappearance in Libya on 31 August 1978...",
+  "about.card1.t": "Scholar & Reformer",
+  "about.card1.d": "Blending religious scholarship with civic work: education, healthcare, social solidarity.",
+  "about.card2.t": "Bridge Builder",
+  "about.card2.d": "Encouraging dialogue among Lebanon’s communities to foster national unity.",
+  "about.card3.t": "Unanswered Question",
+  "about.card3.d": "His fate remains unknown; the search for truth continues.",
+  "legacy.i1": "A model of faith engaging public life: dignity, education, social justice.",
+  "legacy.i2": "Institutions and movements that still shape civic engagement.",
+  "legacy.i3": "A lasting call for dialogue and responsible citizenship.",
+  "legacy.quote": "Man is the brother of man; he is his mirror and his support.",
+  "aside.title": "At a Glance",
+  "aside.i1": "Born 1928 – Qom, Iran (Lebanese descent)",
+  "aside.i2": "Moved to Tyre, Lebanon in 1959",
+  "aside.i3": "First President of the Supreme Islamic Shi’a Council",
+  "aside.i4": "Founded the Amal Movement",
+  "aside.i5": "Disappeared in Libya on 31 Aug 1978",
+  "timeline.title": "Timeline",
+  "timeline.e1": "Born in Qom to a scholarly family rooted in Jabal Amel, Lebanon.",
+  "timeline.e2": "Settles in Tyre, Lebanon; launches wide social and educational initiatives.",
+  "timeline.e3": "Elected President of the Supreme Islamic Shi’a Council in Lebanon.",
+  "timeline.e4": "Helps found the Amal Movement amid rising challenges.",
+  "timeline.e5": "Travels to Libya; disappears with Sheikh Mohammad Yaacoub and journalist Abbas Badr al-Din.",
+  "quotes.title": "Quoted Sayings",
+  "q.1": "Religion without justice is a shell; justice without mercy is a wound.",
+  "q.2": "Our unity is our strength; it protects the weak and restrains the strong.",
+  "q.3": "Knowledge lights the way, but service leads us to the destination.",
+  "q.4": "The duty of the state is to protect dignity; the duty of the citizen is to build.",
+  "footer.copy": "© 2025 Tribute site for educational purposes."
+},
     ar: {
       "nav.about": "عنه",
       "nav.life": "الحياة",
