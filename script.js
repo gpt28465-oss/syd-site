@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
       "footer.copy": "© 2025 Tribute site for educational purposes."
     },
     ar: {
-      "nav.about": "من نحن",
+      "nav.about": "عنه",
       "nav.life": "الحياة",
       "nav.legacy": "الإرث",
       "nav.contact": "تواصل",
