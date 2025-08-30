@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       /* Books */
       "books.title": "Books",
-      "books.subtitle": "Selected works and resources (download or open the publisher page).",
+      "books.subtitle": "Selected works and resources.",
       "books.disclaimer": "Note: some links open publisher pages or previews where the PDF may require purchase or a request.",
       "books.btn": "Download",
 
@@ -152,7 +152,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       /* Books (AR) */
       "books.title": "الكتب",
-      "books.subtitle": "أعمال وموارد مختارة (تحميل أو فتح صفحة الناشر).",
+      "books.subtitle": "أعمال وموارد مختارة.",
       "books.disclaimer": "ملاحظة: بعض الروابط تقود إلى صفحات دور النشر أو معاينات قد تتطلب شراءً أو طلبًا للحصول على الملف.",
       "books.btn": "تحميل",
 
